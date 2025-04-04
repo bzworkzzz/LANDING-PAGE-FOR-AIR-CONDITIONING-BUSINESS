@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chill Zone</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+<!-- Navigation Bar -->
+<header class="bg-gray-600 text-white p-4">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center">
+
+        <!-- Logo Section -->
+    <div class="flex items-center space-x-4">
+        <img src="Images/Chill_Zone.png" alt="Chill Zone Logo" class="w-12 h-12"> 
+        
+        <!-- Logo image -->
+        <a href="/" class="text-white text-xl font-semibold">Chill Zone</a>
+    <ul class="flex space-x-6">
+        <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+        <li><a href="#about" class="hover:text-gray-300">About Us</a></li>
+        <li><a href="#faq" class="hover:text-gray-300">FAQs</a></li>
+        <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+    </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-blue-500 text-white text-center py-20">
+    <h1 class="text-5xl font-bold mb-4">Keep Cool with Chill Zone</h1>
+    <p class="text-xl mb-6">Your Trusted Air Conditioning Brand</p>
+    <a href="#contact" class="bg-yellow-500 text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400">Buy Now</a>
+</section>
+
+<!-- What Makes Us Stand Out -->
+<section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold text-center mb-10">What Makes Us Stand Out?</h2>
+    <ul class="space-y-4">
+        <li class="flex items-start">
+        <span class="text-xl font-bold mr-4">24/7 Emergency Services</span>
+        <p>We are available around the clock to handle all your HVAC emergencies.</p>
+        </li>
+        <li class="flex items-start">
+        <span class="text-xl font-bold mr-4">Certified Technicians</span>
+        <p>Our professionals are highly trained and certified to handle any air conditioning needs.</p>
+        </li>
+        <li class="flex items-start">
+        <span class="text-xl font-bold mr-4">Eco-Friendly Options</span>
+        <p>We offer energy-efficient systems to reduce your energy bills and environmental impact.</p>
+        </li>
+    </ul>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-gray-200 py-20">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold text-center mb-10">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-blue-300 p-6 shadow-lg rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Installation</h3>
+        <p>We install energy-efficient air conditioning systems to keep your space cool and comfortable.</p>
+        </div>
+        <div class="bg-blue-300 p-6 shadow-lg rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Repair & Maintenance</h3>
+        <p>Keep your AC running smoothly with our expert repair and maintenance services.</p>
+        </div>
+        <div class="bg-blue-300 p-6 shadow-lg rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Air Duct Cleaning</h3>
+        <p>Ensure healthy airflow with professional air duct cleaning services.</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- FAQs Section -->
+<section id="faq" class="bg-white py-20">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold text-center mb-10">Frequently Asked Questions</h2>
+        <div class="flex flex-wrap items-center justify-between">
+            <!-- FAQ Text Section -->
+            <div class="w-full md:w-1/2 mb-6 md:mb-0">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-semibold">How often should I have my AC serviced?</h3>
+                        <p>It’s recommended to service your AC at least once a year to ensure it’s running efficiently.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold">What size AC unit do I need?</h3>
+                        <p>We can help determine the right size based on your space and cooling needs.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold">How can I improve the efficiency of my AC?</h3>
+                        <p>Regular maintenance, clean filters, and sealing windows are great ways to improve efficiency.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="w-full md:w-1/2 mt-10 md:mt-10 md:text-right">
+                <img src="Images/Chillin.png" alt="Chill Zone Image" class="w-full md:w-3/4 h-auto mx-auto rounded-lg shadow-none">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="bg-blue-600 text-black py-20">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-semibold text-center mb-10">Contact Us</h2>
+    <form action="#" method="POST" class="space-y-6">
+        <input type="text" name="name" placeholder="Your Name" class="w-full p-4 bg-gray-100 rounded-lg">
+        <input type="email" name="email" placeholder="Your Email" class="w-full p-4 bg-gray-100 rounded-lg">
+        <textarea name="message" placeholder="Your Message" class="w-full p-4 bg-gray-100 rounded-lg"></textarea>
+        <button type="submit" class="w-full bg-yellow-500 text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400">Send Message</button>
+    </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Chill Zone. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
